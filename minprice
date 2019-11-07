@@ -1,0 +1,3 @@
+Select o.club FROM yrb_member m, yrb_offer o where o.club = m.club AND o.year = 2000 and m.cid = 1 and o.title = 'Humor in SQL' and o.price = 25.95; 
+
+`source ~db2leduc/cshrc.runtime` . 

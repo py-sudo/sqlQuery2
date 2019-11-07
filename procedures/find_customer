@@ -1,0 +1,3 @@
+create procedure find_customer(id)
+	select * from yrb_customer where cid = id;
+
